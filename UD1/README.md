@@ -30,7 +30,7 @@ sudo apt install
 ```bash
 git init
 git add .
-git commit -m "Inicializar repositorio y README básico UD1"
+git commit -m "Comentario descriptivo"
 ```
 
 ## Descripción de plugins
