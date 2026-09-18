@@ -18,10 +18,20 @@ Un lenguaje de marcas organiza información mediante una sintaxis basada en marc
 
 1. Instalamos [VS Code](https://code.visualstudio.com/)
 2. Instalamos plugins
-   
-   |Plugin||
-   |------|-|
-   |Markdown all in one |![](https://yzhang.gallerycdn.vsassets.io/extensions/yzhang/markdown-all-in-one/3.6.3/1741534224980/Microsoft.VisualStudio.Services.Icons.Default)|
-   |Live Preview|
-   |HTML CSS Support|
-   |XML (Red Hat)|
+   - [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+   - [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
+   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+   - [XML (Red Hat)](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
+3. Instalamos git
+```bash
+sudo apt install
+```
+4. 
+
+## Descripción de plugins
+|Nombre|Imagen|Uso|
+|-|-|-|
+|HTML CSS Support|![](img/HTMLCSS.png)|Facilitar sintaxis y autocompletado de CSS|
+|Live Preview|![](img/LivePreview.png)|Visualizar los HTML formateados|
+|Markdown All in One|![](img/Markdown.png)|Visualizar los Markdown formateados|
+|XML|![](img/XML.png)|Facilitar sintaxis y autocompletado de XML|
