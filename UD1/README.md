@@ -47,5 +47,3 @@ git push -u origin main
 |Live Preview|![](img/LivePreview.png)|Visualizar los HTML formateados|
 |Markdown All in One|![](img/Markdown.png)|Visualizar los Markdown formateados|
 |XML|![](img/XML.png)|Facilitar sintaxis y autocompletado de XML|
-
-agas
