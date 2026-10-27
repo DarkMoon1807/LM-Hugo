@@ -10,7 +10,7 @@
     <form action="incidencia.php" method="get">
         <fieldset>
             <legend>Datos del usuario</legend>
-            <label for "usuario">Usuario</label>
+            <label for="usuario">Usuario</label>
             <input type="text" id="usuario" name="usuario" placeholder="Nombre y apellidos"/><br/>
             <input type="radio" name="tipo_usuario" value="alumno" checked/>Alumno<br/>
             <input type="radio" name="tipo_usuario" value="profesor"/>Profesor<br/>
@@ -20,18 +20,18 @@
             <input type="radio" name="lugar" value="Todo_el_departamento"/>Todo el departamento<br/>
             <input type="radio" name="lugar" value="Todo_el_aula"/>Todo el aula<br/>
             <input type="radio" name="lugar" value="Un_equipo" checked/>Sólo en un equipo<br/>
-            <label for "departamento">Identifica el dpto. aula o equipo</label>
+            <label for="departamento">Identifica el dpto. aula o equipo</label>
             <input type="text" id="departamento" name="departamento" size="13"/>
         </fieldset>
         <fieldset>
             <legend>Información sobre la incidencia</legend>
-            <label for "descripcion">Descripción de la incidencia</label><br/>
+            <label for="descripcion">Descripción de la incidencia</label><br/>
             <textarea name="descripcion" rows="10" cols="90" placeholder="Describe el problema con detalle"></textarea><br/>
-            <label for "urgencia">Nivel de urgencia:</label><br/>
+            <label for="urgencia">Nivel de urgencia:</label><br/>
             <input type="radio" name="urgencia" value="alto"/>Alto<br/>
             <input type="radio" name="urgencia" value="medio"/>Medio<br/>
             <input type="radio" name="urgencia" value="bajo" checked/>Bajo<br/>
-            <label for "aviso">Me gustaria ser avisado por email cuando se resuelva la incidencia</label>
+            <label for="aviso">Me gustaria ser avisado por email cuando se resuelva la incidencia</label>
             <input type="checkbox" name="aviso" id="aviso" value="ok" checked/>
         </fieldset>
         <input type="submit" value="Enviar">
