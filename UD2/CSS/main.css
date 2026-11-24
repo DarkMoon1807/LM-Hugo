@@ -1,19 +1,15 @@
-li:nth-child(1){
+li:first-child{
     color: blue;
 }
-li:nth-child(2){
+li:nth-child(even){
     color: red;
-    font-size: xx-large;
+    font-size: 2em
 }
 li:nth-child(3){
     color: orange;
     font-size: x-large;
 }
-li:nth-child(4){
-    color: red;
-    font-size: xx-large;
-}
-li:nth-child(5){
+li:last-child{
     color: green;
-    font-size: xxx-large;
+    font-size: 2.5em;
 }
